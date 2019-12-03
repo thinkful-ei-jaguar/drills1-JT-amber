@@ -1,4 +1,7 @@
+/* eslint-disable strict */
 function createGreeting(){
-    console.log("Hi, my name is JT and I'm 36 years old.");
+    return 'Hi, my name is JT and I\'m 36 years old.'
 }
-createGreeting();
+
+const greeting1 = createGreeting();
+console.log(greeting1);
